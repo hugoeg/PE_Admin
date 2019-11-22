@@ -50,7 +50,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuCadastros.setText("Cadastros");
 
-        jMenuItemCadCliente.setText("Cliente");
+        jMenuItemCadCliente.setText("Beneficiário");
         jMenuItemCadCliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItemCadClienteActionPerformed(evt);
@@ -118,6 +118,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItemCadClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemCadClienteActionPerformed
+        TCadastroBeneficiário tela = new TCadastroBeneficiário();
+        tela.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItemCadClienteActionPerformed
 
